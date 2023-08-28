@@ -28,5 +28,5 @@ export const AddForm = ({ onNewField }) => {
 };
 
 AddForm.propTypes = {
-  onNewField: PropTypes.function,
+  onNewField: PropTypes.func,
 };
