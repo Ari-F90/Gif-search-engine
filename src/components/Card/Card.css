@@ -1,0 +1,32 @@
+.card {
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  height: 0%;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.title-gif {
+  font-size: 1.5rem;
+  font-family: "ADLaM Display", cursive;
+  margin: auto;
+  margin-bottom: 0.8rem;
+}
+
+.card p {
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
