@@ -1,0 +1,22 @@
+.loading {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.title-category {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", Verdana, sans-serif;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem;
+}
