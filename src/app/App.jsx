@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { AddForm } from "../components/AddForm";
-import { GifList } from "../components/GifList";
+import { AddForm } from "../components/AddForm/AddForm";
+import { GifList } from "../components/GifList/GifList";
+import "./App.css";
 export const App = () => {
   const [fields, setFields] = useState(["Pikachu"]);
 
@@ -13,7 +14,7 @@ export const App = () => {
 
   return (
     <>
-      <h1>GIF search engine</h1>
+      <h1 className="title-app">GIF search engine</h1>
       <AddForm onNewField={addField} />
 
       {fields.map((item) => (
